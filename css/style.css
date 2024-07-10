@@ -181,10 +181,11 @@ header {
 }
 
 .card .card__icon {
-  width: 8rem;
-  height: 7.5rem;
+  width: 6rem;
+  height: 6rem;
   min-width: 90px;
   min-height: 90px;
+  padding: 10px 20px;
   background-color: var(--color-violet);
   position: absolute;
   top: 0;
@@ -193,11 +194,11 @@ header {
 }
 
 .card .card__icon img {
-  width: 80px;
+  width: 100%;
   display: inline-block;
   height: 80px;
-  margin-left: 25px;
-  margin-top: 15px;
+  /* margin-left: 20px;
+  margin-top: 15px; */
 }
 
 .card .card__information h2 {
