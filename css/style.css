@@ -16,6 +16,7 @@ html {
   /* --color-violet: #7a6ad8; */
   /* --color-violet: #e21d52; */
   --color-violet: #e21d52;
+  --color-violet-light: #ff6e95;
   --color-aqua-dark: #2e97a7;
   --color-aqua-light: #66afbb;
   --color-pink: #f68fab;
@@ -441,6 +442,15 @@ header {
   padding: 15px;
 }
 
+.footer__information {
+  margin-top: 20px;
+}
+
+.footer__information p:first-child {
+  color: var(--color-light);
+  font-size: 1rem;
+}
+
 .icon-contact {
   display: flex;
   justify-content: center;
@@ -459,14 +469,20 @@ header {
   gap: 10px 0;
 }
 
+.text-footer {
+  color: var(--color-light);
+  font-weight: bold;
+}
+
 .footer__box {
   display: flex;
   align-items: center;
 }
 
-.description__informative{
-    text-align: justify;
-    margin: 5px 0;
+.description__informative {
+  text-align: justify;
+  margin-bottom: 10px;
+  color: var(--color-light);
 }
 
 .social-network {
@@ -483,6 +499,14 @@ header {
   border-radius: 2px;
   padding: 4px;
 }
+.social-network a:hover {
+  background-color: #ffffffd8;
+}
+.social-network a:hover .icon-facebook,
+.social-network a:hover .icon-instagram,
+.social-network a:hover .icon-tiktok {
+  background-color: var(--color-violet-light);
+}
 
 .icon-facebook {
   background-color: #ffffff;
@@ -492,10 +516,6 @@ header {
   background-position: center center;
   width: 20px;
   height: 20px;
-}
-
-.icon-facebook:hover {
-    background-color: var(--color-violet);
 }
 
 .icon-instagram {
@@ -508,10 +528,6 @@ header {
   height: 20px;
 }
 
-.icon-instagram:hover {
-    background-color: var(--color-violet);
-}
-
 .icon-tiktok {
   background-color: #ffffff;
   -webkit-mask: url("../img/tiktok.svg") no-repeat center;
@@ -522,6 +538,93 @@ header {
   height: 20px;
 }
 
-.icon-tiktok:hover {
-    background-color: var(--color-violet);
+/* Page Donation */
+.main {
+  padding-top: 60px;
 }
+.banner__donation {
+  width: 100%;
+  height: 300px;
+  background: url("../img/banner-donation.jpg") no-repeat;
+  background-position: 90% 28%;
+  background-size: cover;
+  position: relative;
+}
+.banner__donation .banner__donation__infomation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner__donation__infomation h1 {
+  color: var(--color-violet);
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.banner__donation__infomation p {
+  text-align: center;
+  color: var(--color-violet);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.donation__cards {
+  width: 100%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 10px;
+}
+
+.donation__card {
+  padding: 15px;
+  background-color: #fbf1fd;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.donation__card p {
+  text-align: justify;
+}
+
+.donation__cards h2,
+.donation__card b {
+  color: var(--color-violet);
+}
+
+.donation__card--item-benefit::before {
+  content: "⭐";
+}
+
+/* Responsive */
+/* .banner__donation .banner__donation__infomation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner__donation__infomation h1 {
+  color: var(--color-violet);
+  font-size: 5rem;
+  text-align: center;
+}
+
+.banner__donation__infomation p {
+  text-align: center;
+  color: var(--color-violet);
+  font-size: 1.2rem;
+  font-weight: 600;
+} */
+
+/* 
+.donation__cards {
+  width: 100%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 5px;
+}
+ */
