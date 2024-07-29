@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ups</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        box-sizing: border-box;
+      }
+
+      .section__error {
+        background-color: #e21d52;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .error__container {
+        background-color: #fff;
+        padding: 16px;
+        border-radius: 15px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .error__container h2 {
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      .error__container img {
+        width: 400px;
+      }
+
+      a {
+        color: #007bff;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+      .link--back {
+        background: #e21d52;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="section__error">
+      <div class="error__container">
+        <img src="./img/404.png" alt="" />
+        <h2>Opps! Página no encontrada</h2>
+        <p>Lo sentimos, pero la página que buscas no ha sido encontrada</p>
+        <a href="" class="link--back">Volver al Inicio</a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -309,6 +309,7 @@ header {
   /* border-radius: 0 90px 90px 0; */
   margin-bottom: 20px;
   color: var(--color-white);
+  box-shadow: 0 0 20px #cacaca;
 }
 
 .statistics__item {
