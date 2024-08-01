@@ -171,7 +171,7 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 20px;
+  padding: 0px 50px;
 }
 .banner__content{
   width: 50%;
