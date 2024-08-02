@@ -3,11 +3,12 @@ const buttonNav = document.getElementById('button-nav');
 const buttonColapse = document.getElementById('question__button');
 const buttonsCollapseQuestions = document.querySelectorAll('#icon-colapse-question')
 
+// Boton Hamburguesa Renposive
 buttonNav.addEventListener('click', (e) => {
     navBar.classList.toggle('show')
 })
 
-
+// Sección de preguntas. Boton desplegable
 buttonsCollapseQuestions.forEach((btn)=> {
     btn.addEventListener('click', (e) => {
         const question = btn.closest('.question');
@@ -22,6 +23,8 @@ buttonsCollapseQuestions.forEach((btn)=> {
     })
  
 })
+
+// Testimonios
 const carousel = document.querySelector('.carousel');
 const items = document.querySelectorAll('.carousel-item');
 const itemWidth = items[0].offsetWidth;
