@@ -374,7 +374,6 @@ header {
     url("../img/image_statistics.jpg") center/cover no-repeat;
   background-size: cover;
   width: 100%;
-  /* width: 90%; */
   padding: 80px;
   display: flex;
   gap: 30px 0;
