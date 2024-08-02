@@ -367,9 +367,8 @@ header {
 /* Estadisticas */
 .statistics {
   background: linear-gradient(
-      rgba(37, 180, 156, 0.5),
-      /* Color del filtro (en este caso, negro con 50% de opacidad) */
-        rgba(17, 177, 142, 0.5)
+      rgba(25, 230, 196, 0.89),
+      rgba(17, 177, 142, 0.74)
     ),
     url("../img/image_statistics.jpg") center/cover no-repeat;
   background-size: cover;
@@ -379,10 +378,8 @@ header {
   gap: 30px 0;
   flex-direction: column;
   justify-content: space-between;
-  /* border-radius: 0 90px 90px 0; */
   margin-bottom: 20px;
   color: var(--color-white);
-  box-shadow: 0 0 20px #cacaca;
 }
 
 .statistics__item {
@@ -786,7 +783,8 @@ header {
   .footer {
     flex-direction: row;
     align-items: center;
-    padding: 10px;
+    justify-content: center;
+
     gap: 10px;
   }
 }
