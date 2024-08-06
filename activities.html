@@ -10,7 +10,27 @@
       href="./img/iconCreeentiPorti.png"
       type="image/x-icon"
     />
+    <style>
+      /* Galería */
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+        width: 50%;
+      }
 
+      .gallery > div {
+        flex: 1 1 33%;
+        padding: 5px;
+      }
+
+      .gallery img {
+        width: 100%;
+        border-radius: 0.25rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+        margin-bottom: 10px;
+      }
+    </style>
     <script
       src="https://kit.fontawesome.com/9001b28862.js"
       crossorigin="anonymous"
@@ -36,47 +56,82 @@
       <section class="banner__donation">
         <div class="banner__donation__infomation">
           <h1>Actividades</h1>
-          <p>"Un gran cambio empieza con pequeñas acciones"</p>
+          <p>"Necesitamos hechos y no palabras"</p>
         </div>
       </section>
-      <div class="donation__cards">
-        <div class="donation__card">
-          <h2>Ayuda a quienes más lo necesitan</h2>
-          <p>
-            El Centro de Influencia necesita de tu apoyo para llegar a más
-            <b
-              >niños y niñas que lo necesitan. Tu donación puede marcar una gran
-              diferencia en sus vidas.</b
-            >
-            Con tu generosidad, podemos brindar recursos esenciales y apoyo a
-            las comunidades más vulnerables. <b>Cada pequeño aporte cuenta.</b>
-          </p>
+      <div class="">
+        <!-- Gallery -->
+        <h1>Recuerdo</h1>
+        <div class="gallery">
+          <div>
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+              alt="Boat on Calm Water"
+            />
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+              alt="Wintry Mountain Landscape"
+            />
+          </div>
+
+          <div>
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+              alt="Mountains in the Clouds"
+            />
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+              alt="Boat on Calm Water"
+            />
+          </div>
+
+          <div>
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+              alt="Waves at Sea"
+            />
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+              alt="Yosemite National Park"
+            />
+          </div>
         </div>
-        <div class="donation__card">
-          <h2>Cómo puedes ayudar</h2>
-          <p>
-            Es muy sencillo: puedes aportar tu granito de arena donando a la
-            cuenta de <b>Bancolombia 000-000-000</b>. Después de realizar tu
-            donación, por favor comunícate al número telefónico o por
-            <b
-              >WhatsApp al 31000000 enviando el comprobante de pago para
-              reclamar tu certificado de donación</b
-            >. Nos comprometemos a utilizar los recursos de la mejor manera para
-            maximizar el impacto positivo en la comunidad.
-          </p>
+        <!-- Gallery -->
+        <div class="gallery">
+          <div>
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+              alt="Boat on Calm Water"
+            />
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+              alt="Wintry Mountain Landscape"
+            />
+          </div>
+
+          <div>
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+              alt="Mountains in the Clouds"
+            />
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+              alt="Boat on Calm Water"
+            />
+          </div>
+
+          <div>
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+              alt="Waves at Sea"
+            />
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+              alt="Yosemite National Park"
+            />
+          </div>
         </div>
-        <div class="donation__card">
-          <h2>Beneficios de donar</h2>
-          <p class="donation__card--item-benefit">
-            Al participar en este valioso acto de generosidad, <b>recibirás un
-              certificado de donación. Este certificado te beneficiará al
-              ofrecerte un descuento al momento de realizar la Declaración de Renta.</b>
-          </p>
-          <p class="donation__card--item-benefit">
-            Además, la <b>satisfacción de saber que estás contribuyendo a mejorar
-              la vida de otros es un beneficio intangible pero inmenso.</b>
-          </p>
-        </div>
+        <!-- Gallery -->
       </div>
       <footer class="footer">
         <div class="footer__boxes">
@@ -84,7 +139,12 @@
             <span class="icon-contact"
               ><i class="fa-solid fa-location-dot"></i
             ></span>
-            <p class="text-footer">Danubio Azul <a href="" class="text-footer"><i class="fa-solid fa-location-arrow"></i></a> </p>
+            <p class="text-footer">
+              Danubio Azul
+              <a href="" class="text-footer"
+                ><i class="fa-solid fa-location-arrow"></i
+              ></a>
+            </p>
           </div>
           <div class="footer__box">
             <span class="icon-contact"><i class="fa-solid fa-phone"></i></span>
